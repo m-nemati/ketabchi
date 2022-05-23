@@ -1,0 +1,61 @@
+body{
+    font-family: iransans;
+}
+
+/* ***** Navigation bar Styles ***** */
+#navbar{
+    margin-top: 10px;
+}
+
+#menu-link{
+    color: white;
+    font-size: 18px;
+}
+ #menu-link:hover{
+    color: #23f308;
+    font-size: 20px;
+}
+
+/* ***** Top Header Styles ***** */
+header h1, p{
+    font-family: SamimBold;
+}
+
+header h1{
+    color: #23f308;
+    text-shadow:1px 1px #000000;
+}
+
+#logo{
+    width: 50%;
+    height: 50%;
+}
+
+#headerpic{
+    width: 100%;
+    height: 284px;
+}
+
+/* ***** Footer Styles ***** */
+footer{
+    background-color: #333;
+}
+footer p, i{
+    color: white;
+}
+
+#social-icon i:hover{
+    color: #23f308;
+}
+
+
+/* *****To top icon  Styles ***** */
+#to_top{
+    position: fixed;
+    z-index: 100;
+   bottom: 15px;
+   left: 15px;
+   visibility: hidden;
+   cursor: pointer;
+
+}
